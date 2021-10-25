@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script> 
+    $(document).ready(function(){
+      $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+        });
+        });
+        
+        $(document).ready(function(){
+          $("img").hide()
+          $("button").click(function(){
+            $("img").fadeIn();
+            });
+            });
+
+        </script>
+        <style> 
+        #panel, #flip {
+          padding: 7px;
+          text-align: center;
+          font-size: 20px;
+          background-color: CornflowerBlue;
+          border: solid 2px DarkBlue;
+          }
+          #panel {
+            padding: 10px;
+            display: none;
+            font-size: 20px;
+            }
+            </style>
+            </head>
+            <body style="background-color: DarkSeaGreen;">
+              <div id="flip">What's up dudes, welcome to my website.</div>
+              <div id="panel">Where it's all about me!</div>
+
+              <h2>My Favorite...</h2>
+               <button>Movie</button><br></br>
+
+               <img src="https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg" style="width: 150px; height: 200px;"></img>
+
+              </body>
+              </html>
